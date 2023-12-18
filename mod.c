@@ -36,5 +36,5 @@ void f_mod(stack_t **head, unsigned int counter)
 	aux = hhh->next->n % hhh->n;
 	hhh->next->n = aux;
 	*head = hhh->next;
-	free(h);
+	free(hhh);
 }
